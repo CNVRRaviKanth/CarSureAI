@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# Models (large binaries — store with Git LFS or externally)
+models/*.pth
+models/*.pt
+
+# Env files
+.env
+backend/.env
+frontend/.env
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# YOLO / training artifacts
+runs/
+
+# IDE
+.vscode/
+.idea/
+*.DS_Store
